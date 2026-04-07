@@ -1,0 +1,51 @@
+<svg viewBox="0 0 900 340" xmlns="http://www.w3.org/2000/svg" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif">
+  <rect width="900" height="340" rx="12" fill="#0f0f0f"/>
+  <rect width="900" height="38" rx="12" fill="#1a1a1a"/>
+  <rect y="26" width="900" height="12" fill="#1a1a1a"/>
+  <circle cx="20" cy="19" r="6" fill="#ff5f57"/>
+  <circle cx="38" cy="19" r="6" fill="#febc2e"/>
+  <circle cx="56" cy="19" r="6" fill="#28c840"/>
+  <text x="450" y="24" text-anchor="middle" font-size="13" fill="#888" font-weight="500">New Chat — MemoryAI</text>
+
+  <!-- Modal overlay -->
+  <rect x="221" y="38" width="679" height="302" fill="#0f0f0f" opacity="0.7"/>
+
+  <!-- Modal -->
+  <rect x="290" y="58" width="320" height="270" rx="14" fill="#1a1a1a" stroke="#2e2e2e" stroke-width="1"/>
+  <text x="310" y="90" font-size="16" fill="#e8e8e8" font-weight="600">New chat</text>
+
+  <!-- Chat name field -->
+  <text x="310" y="114" font-size="11" fill="#666">Chat name</text>
+  <rect x="310" y="120" width="280" height="32" rx="7" fill="#232323" stroke="#2e2e2e" stroke-width="0.5"/>
+  <text x="322" y="141" font-size="13" fill="#e8e8e8">Code Review Assistant</text>
+
+  <!-- Provider field -->
+  <text x="310" y="170" font-size="11" fill="#666">Provider</text>
+  <rect x="310" y="176" width="280" height="32" rx="7" fill="#232323" stroke="#7c6af7" stroke-width="1"/>
+  <text x="322" y="197" font-size="13" fill="#e8e8e8">Anthropic</text>
+  <text x="574" y="197" text-anchor="end" font-size="12" fill="#666">▾</text>
+
+  <!-- Provider dropdown open -->
+  <rect x="310" y="210" width="280" height="118" rx="7" fill="#232323" stroke="#2e2e2e" stroke-width="0.5"/>
+  <rect x="312" y="212" width="276" height="28" rx="5" fill="#3d3570"/>
+  <text x="326" y="230" font-size="12" fill="#c9c0ff" font-weight="500">✓  Anthropic</text>
+  <rect x="312" y="240" width="276" height="1" fill="#2e2e2e"/>
+  <text x="326" y="258" font-size="12" fill="#aaa">   OpenAI</text>
+  <rect x="312" y="263" width="276" height="1" fill="#2e2e2e"/>
+  <text x="326" y="281" font-size="12" fill="#aaa">   Google Gemini</text>
+  <rect x="312" y="286" width="276" height="1" fill="#2e2e2e"/>
+  <text x="326" y="304" font-size="12" fill="#aaa">   Ollama (local)</text>
+  <rect x="480" y="299" width="70" height="16" rx="8" fill="#1e3a1e"/>
+  <text x="515" y="311" text-anchor="middle" font-size="9" fill="#4ade80">FREE · LOCAL</text>
+
+  <!-- Sidebar still visible -->
+  <rect x="0" y="38" width="220" height="302" fill="#1a1a1a"/>
+  <rect x="220" y="38" width="1" height="302" fill="#2e2e2e"/>
+  <circle cx="22" cy="68" r="5" fill="#7c6af7"/>
+  <text x="33" y="72" font-size="15" fill="#e8e8e8" font-weight="700">MemoryAI</text>
+  <text x="22" y="86" font-size="10" fill="#666">Persistent memory across sessions</text>
+  <rect x="14" y="96" width="192" height="30" rx="7" fill="#7c6af7"/>
+  <text x="110" y="116" text-anchor="middle" font-size="12" fill="#fff" font-weight="600">+ New chat</text>
+  <rect x="0" y="134" width="220" height="1" fill="#2e2e2e"/>
+  <text x="18" y="160" font-size="12" fill="#666">No chats yet</text>
+</svg>

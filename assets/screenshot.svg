@@ -1,0 +1,109 @@
+<svg viewBox="0 0 900 560" xmlns="http://www.w3.org/2000/svg" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif">
+  <!-- Window chrome -->
+  <rect width="900" height="560" rx="12" fill="#0f0f0f"/>
+  <rect width="900" height="38" rx="12" fill="#1a1a1a"/>
+  <rect y="26" width="900" height="12" fill="#1a1a1a"/>
+  <!-- Traffic lights -->
+  <circle cx="20" cy="19" r="6" fill="#ff5f57"/>
+  <circle cx="38" cy="19" r="6" fill="#febc2e"/>
+  <circle cx="56" cy="19" r="6" fill="#28c840"/>
+  <!-- Title bar text -->
+  <text x="450" y="24" text-anchor="middle" font-size="13" fill="#888" font-weight="500">MemoryAI — localhost:5000</text>
+
+  <!-- Sidebar -->
+  <rect x="0" y="38" width="220" height="522" fill="#1a1a1a"/>
+  <rect x="220" y="38" width="1" height="522" fill="#2e2e2e"/>
+
+  <!-- Logo area -->
+  <circle cx="22" cy="68" r="5" fill="#7c6af7"/>
+  <text x="33" y="72" font-size="15" fill="#e8e8e8" font-weight="700">MemoryAI</text>
+  <text x="22" y="86" font-size="10" fill="#666">Persistent memory across sessions</text>
+  <rect x="14" y="96" width="192" height="30" rx="7" fill="#7c6af7"/>
+  <text x="110" y="116" text-anchor="middle" font-size="12" fill="#fff" font-weight="600">+ New chat</text>
+  <rect x="0" y="134" width="220" height="1" fill="#2e2e2e"/>
+
+  <!-- Session items -->
+  <rect x="8" y="142" width="204" height="46" rx="7" fill="#3d3570"/>
+  <text x="18" y="162" font-size="12" fill="#e8e8e8" font-weight="500">Code Review Assistant</text>
+  <text x="18" y="178" font-size="10" fill="#9c92ff">anthropic · claude-sonnet-4-6</text>
+
+  <rect x="8" y="194" width="204" height="46" rx="7" fill="none"/>
+  <text x="18" y="214" font-size="12" fill="#aaa">Research Helper</text>
+  <text x="18" y="230" font-size="10" fill="#666">openai · gpt-4o</text>
+
+  <rect x="8" y="246" width="204" height="46" rx="7" fill="none"/>
+  <text x="18" y="266" font-size="12" fill="#aaa">Writing Coach</text>
+  <text x="18" y="282" font-size="10" fill="#666">ollama · llama3</text>
+
+  <rect x="8" y="298" width="204" height="46" rx="7" fill="none"/>
+  <text x="18" y="318" font-size="12" fill="#aaa">Data Analyst</text>
+  <text x="18" y="334" font-size="10" fill="#666">gemini · gemini-2.0-flash</text>
+
+  <!-- API key footer -->
+  <rect x="0" y="505" width="220" height="1" fill="#2e2e2e"/>
+  <text x="14" y="522" font-size="10" fill="#555">API key (browser only)</text>
+  <rect x="14" y="528" width="192" height="24" rx="6" fill="#232323" stroke="#2e2e2e" stroke-width="0.5"/>
+  <text x="22" y="544" font-size="11" fill="#444" font-family="monospace">sk-••••••••••••••••••••</text>
+
+  <!-- Main area topbar -->
+  <rect x="221" y="38" width="679" height="46" fill="#1a1a1a"/>
+  <rect x="221" y="84" width="679" height="1" fill="#2e2e2e"/>
+  <text x="238" y="67" font-size="14" fill="#e8e8e8" font-weight="600">Code Review Assistant</text>
+  <rect x="530" y="53" width="76" height="20" rx="5" fill="#232323" stroke="#2e2e2e" stroke-width="0.5"/>
+  <text x="568" y="67" text-anchor="middle" font-size="10" fill="#888">anthropic</text>
+  <rect x="614" y="53" width="130" height="20" rx="5" fill="#3d3570"/>
+  <text x="679" y="67" text-anchor="middle" font-size="10" fill="#c9c0ff">claude-sonnet-4-6</text>
+
+  <!-- Messages -->
+  <!-- AI message 1 -->
+  <rect x="238" y="100" width="28" height="28" rx="7" fill="#232323" stroke="#2e2e2e" stroke-width="0.5"/>
+  <text x="252" y="119" text-anchor="middle" font-size="11" fill="#888" font-weight="600">AI</text>
+  <rect x="274" y="100" width="390" height="52" rx="10" fill="#1a1a1a" stroke="#2e2e2e" stroke-width="0.5"/>
+  <text x="290" y="120" font-size="13" fill="#e8e8e8">Hey! I remember we were reviewing your</text>
+  <text x="290" y="138" font-size="13" fill="#e8e8e8">auth module last time. Want to continue?</text>
+
+  <!-- User message -->
+  <rect x="862" y="166" width="28" height="28" rx="7" fill="#7c6af7"/>
+  <text x="876" y="185" text-anchor="middle" font-size="11" fill="#fff" font-weight="600">U</text>
+  <rect x="554" y="166" width="300" height="52" rx="10" fill="#1e1b3a" stroke="#3d3570" stroke-width="0.5"/>
+  <text x="570" y="186" font-size="13" fill="#e8e8e8">Yes! Also check the new JWT handler</text>
+  <text x="570" y="204" font-size="13" fill="#e8e8e8">I added in utils.py</text>
+
+  <!-- AI message 2 -->
+  <rect x="238" y="232" width="28" height="28" rx="7" fill="#232323" stroke="#2e2e2e" stroke-width="0.5"/>
+  <text x="252" y="251" text-anchor="middle" font-size="11" fill="#888" font-weight="600">AI</text>
+  <rect x="274" y="232" width="480" height="86" rx="10" fill="#1a1a1a" stroke="#2e2e2e" stroke-width="0.5"/>
+  <text x="290" y="252" font-size="13" fill="#e8e8e8">Sure! Based on our earlier discussion about</text>
+  <text x="290" y="270" font-size="13" fill="#e8e8e8">keeping tokens short-lived, your JWT handler</text>
+  <text x="290" y="288" font-size="13" fill="#e8e8e8">looks good — but consider adding</text>
+  <rect x="290" y="298" width="130" height="14" rx="3" fill="#232323"/>
+  <text x="296" y="309" font-size="10" fill="#9c92ff" font-family="monospace">token_blacklist</text>
+  <text x="426" y="309" font-size="13" fill="#e8e8e8"> for revocation.</text>
+
+  <!-- User message 2 -->
+  <rect x="862" y="334" width="28" height="28" rx="7" fill="#7c6af7"/>
+  <text x="876" y="353" text-anchor="middle" font-size="11" fill="#fff" font-weight="600">U</text>
+  <rect x="596" y="334" width="258" height="36" rx="10" fill="#1e1b3a" stroke="#3d3570" stroke-width="0.5"/>
+  <text x="612" y="357" font-size="13" fill="#e8e8e8">Great idea, how do I implement that?</text>
+
+  <!-- AI message 3 (thinking dots) removed, just a short response -->
+  <rect x="238" y="384" width="28" height="28" rx="7" fill="#232323" stroke="#2e2e2e" stroke-width="0.5"/>
+  <text x="252" y="403" text-anchor="middle" font-size="11" fill="#888" font-weight="600">AI</text>
+  <rect x="274" y="384" width="490" height="68" rx="10" fill="#1a1a1a" stroke="#2e2e2e" stroke-width="0.5"/>
+  <text x="290" y="404" font-size="13" fill="#e8e8e8">Store invalidated tokens in Redis or SQLite</text>
+  <text x="290" y="422" font-size="13" fill="#e8e8e8">with a TTL matching token expiry. Check on</text>
+  <text x="290" y="440" font-size="13" fill="#e8e8e8">every request before processing.</text>
+
+  <!-- Memory indicator badge -->
+  <rect x="238" y="460" width="130" height="22" rx="11" fill="#1e1b3a" stroke="#3d3570" stroke-width="0.5"/>
+  <circle cx="252" cy="471" r="4" fill="#7c6af7"/>
+  <text x="262" y="475" font-size="10" fill="#9c92ff">24 messages remembered</text>
+
+  <!-- Input area -->
+  <rect x="221" y="496" width="679" height="1" fill="#2e2e2e"/>
+  <rect x="221" y="497" width="679" height="63" fill="#1a1a1a"/>
+  <rect x="238" y="508" width="630" height="40" rx="10" fill="#232323" stroke="#2e2e2e" stroke-width="0.5"/>
+  <text x="254" y="533" font-size="13" fill="#444">Message Code Review Assistant...</text>
+  <rect x="806" y="514" width="52" height="28" rx="7" fill="#7c6af7"/>
+  <text x="832" y="533" text-anchor="middle" font-size="12" fill="#fff" font-weight="600">Send</text>
+</svg>
